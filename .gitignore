@@ -1,0 +1,8 @@
+
+.DS_Store
+.vscode/tasks.json
+helloworld/helloworld.xcodeproj/project.pbxproj
+helloworld/helloworld.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+helloworld/helloworld.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+helloworld/helloworld.xcodeproj/project.xcworkspace/xcuserdata/michaelosvald.xcuserdatad/UserInterfaceState.xcuserstate
+helloworld/helloworld.xcodeproj/xcuserdata/michaelosvald.xcuserdatad/xcschemes/xcschememanagement.plist
