@@ -6,3 +6,12 @@ helloworld/helloworld.xcodeproj/project.xcworkspace/contents.xcworkspacedata
 helloworld/helloworld.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
 helloworld/helloworld.xcodeproj/project.xcworkspace/xcuserdata/michaelosvald.xcuserdatad/UserInterfaceState.xcuserstate
 helloworld/helloworld.xcodeproj/xcuserdata/michaelosvald.xcuserdatad/xcschemes/xcschememanagement.plist
+*.pbxproj
+*.pbxproj
+*.xcworkspacedata
+*.plist
+*.xcuserstate
+*.xcscheme
+*.pbxproj
+*.xcuserstate
+*.plist
