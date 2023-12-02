@@ -8,7 +8,8 @@
 #include <stdio.h>
 #include <iostream>
 using namespace std;
-int main()
+int _main()
 {
     cout<<"test"<<endl;
+    return 0;
 }

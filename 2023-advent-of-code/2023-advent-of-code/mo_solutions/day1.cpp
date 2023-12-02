@@ -39,7 +39,7 @@ int _main(int argc, const char * argv[]) {
     return 0;
 }
 
-void getFileLines(string &file, vector<string> &out)
+void _getFileLines(string &file, vector<string> &out)
 {
     ifstream infile;
     string input;
