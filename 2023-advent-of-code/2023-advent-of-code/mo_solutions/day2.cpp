@@ -10,23 +10,24 @@
 #include <algorithm>
 #include <sstream>
 #include <fstream>
-#include <vector>
+/*
+ #include <vector>
 #include <string>
 #include <regex>
 using namespace std;
 
-void getFileLines(string &file, vector<string> &out);
+void _getFileLines(string &file, vector<string> &out);
 void removeGameText(vector<string> &out);
 vector<vector<string>> parseGame(vector<string> &in);
 vector<vector<vector<pair<int,string>>>> parseGameResults(vector<vector<string>> &in);
 bool isValidMatch(vector<pair<int,string>> &max, vector<vector<pair<int,string>>> &matches);
 int getCubePower(vector<vector<pair<int,string>>> &matches);
-int main()
+int _main()
 {
     vector<pair<int,string>> game_max = {pair<int,string>(12,"red"),pair<int,string>(13,"green"),pair<int,string>(14,"blue")};
     string data = "./data/data_2.txt";
     vector<string> lines;
-    getFileLines(data, lines);
+    _getFileLines(data, lines);
     removeGameText(lines);
     vector<vector<string>> games = parseGame(lines);
     vector<vector<vector<pair<int,string>>>> gameResults =  parseGameResults(games);
@@ -38,16 +39,17 @@ int main()
         if (isMatch){
             sum+=(i+1);
             cout<<"valid match: "<<i+1<<endl;
-        }*/
+        }
         int power =getCubePower(gameResults[i]);
         cout<< i+1 <<" power: "<<power<<endl;
         sum+=power;
     }
     
     cout<<"result:"<< sum <<endl;
+    return 0;
 }
 
-void getFileLines(string &file, vector<string> &out)
+void _getFileLines(string &file, vector<string> &out)
 {
     ifstream infile;
     string input;
@@ -163,3 +165,4 @@ int getCubePower(vector<vector<pair<int,string>>> &matches){
     }
     return (max_blue*max_red*max_green);
 }
+*/
