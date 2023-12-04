@@ -15,3 +15,5 @@ helloworld/helloworld.xcodeproj/xcuserdata/michaelosvald.xcuserdatad/xcschemes/x
 *.pbxproj
 *.xcuserstate
 *.plist
+*.xcbkptlist
+*.txt
